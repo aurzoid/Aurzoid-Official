@@ -32,7 +32,7 @@ if (typeof Storage !== 'undefined') { // eslint-disable-line
 }
 
 function MyApp(props) {
-  const loadingTime = 1500;
+  const loadingTime = 0;
   const [loading, setLoading] = useState(0);
   const [theme, setTheme] = useState({
     ...appTheme('oceanBlue', themeType),
